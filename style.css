@@ -1,0 +1,58 @@
+h1 {
+    color:lightblue;
+    font-style: Arial Rounded MT Bold ;
+
+}
+
+.header{
+    background-color: cadetblue;
+    text-shadow: darksalmon;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+h2,p{
+    color: blue;
+    font-style: initial;
+    text-align: center;
+}
+
+h3{
+    color: cyan;
+    font-style: inherit;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutMe{
+display:flex;
+flex-direction: row;
+align-items: stretch;
+}
+.desc{
+    color: lightskyblue;
+    font-style: oblique;
+}
+
+.myFamily{
+display: flex;
+flex-flow: row;
+}
+.fam{
+color: lightskyblue;
+font-style: unset;
+}
+
+.myImg{
+border: mediumturquoise;
+border-style: solid;
+}
