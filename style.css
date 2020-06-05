@@ -1,11 +1,11 @@
 h1 {
-    color:lightblue;
+    color:lightsteelblue;
     font-style: Arial Rounded MT Bold ;
 
 }
 
 .header{
-    background-color: cadetblue;
+    background-color: palevioletred;
     text-shadow: darksalmon;
     display:flex;
     justify-content: space-between;
@@ -18,14 +18,17 @@ h1 {
 }
 
 h2,p{
-    color: blue;
+    color:purple;
     font-style: initial;
     text-align: center;
 }
 
-h3{
-    color: cyan;
-    font-style: inherit;
+.he3{
+    color:darkorchid;
+}
+
+.hea3{
+    color: magenta;
 }
 
 .footer{
@@ -39,7 +42,7 @@ flex-direction: row;
 align-items: stretch;
 }
 .desc{
-    color: lightskyblue;
+    color:mediumorchid;
     font-style: oblique;
 }
 
@@ -48,11 +51,19 @@ display: flex;
 flex-flow: row;
 }
 .fam{
-color: lightskyblue;
+color: palevioletred;
 font-style: unset;
 }
 
 .myImg{
-border: mediumturquoise;
+border: mediumpurple;
 border-style: solid;
+}
+
+.img{
+    border: orchid;
+}
+
+body{
+    background-color:powderblue;
 }
